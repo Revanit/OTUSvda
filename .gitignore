@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+.venv/
+.venv.bak/
+.idea/
+/tests/.pytest_cache/
+__pycache__/
+.pytest_cache/

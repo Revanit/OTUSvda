@@ -1,8 +1,8 @@
 def calculate_average(nums):
-    total = sum(nums)
-    count = len(numbers)
-    average = total / count
+    return sum(nums) / len(nums)
 
-nums = [10, 15, 20]
-result = calculat_average(nums)
-Print("The average is:", result)
+
+numbers = [1, 2, 3, 4, 5]
+average = calculate_average(numbers)
+
+print("Среднее значение:", average)
